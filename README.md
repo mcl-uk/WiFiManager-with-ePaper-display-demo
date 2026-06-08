@@ -6,18 +6,16 @@ Demonstration of using WiFiManager on ESP32 with small ePaper display for QR cod
  Using a plain vanilla ESP32-WROOM-32E module.
 
  See:
+ 
   https://thepihut.com/products/eink-display-phat-2-13-250x122
+  
   https://www.waveshare.com/wiki/2.13inch_e-Paper_HAT_Manual
+  
   https://github.com/tzapu/WiFiManager
 
  Inspired by:
+ 
   https://www.youtube.com/watch?v=VnfX9YJbaU8
-
- Libraries used:
-  WiFiManager by Tzapu
-  GxEPD2 graphics by ZinggJM
-  QRCodeGFX by Wallysalami
-  ESP32Time by fbiego
 
  Hold GPIIO "WIFI_PIN" low during power-up/reset to force WiFi Manager to start
  else attempt to use the currently stored wifi credentials.
