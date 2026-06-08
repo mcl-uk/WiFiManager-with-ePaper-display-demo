@@ -115,7 +115,7 @@ void print_reset_reason(RESET_REASON reason)
  }
 
 // Calc DST state given dow, mo_no, date_no & hour
-//  dow must be Sun-0..6 & mo_no must be 0..11 & date_no 0..xx 
+//  dow must be Sun-0..6 & mo_no must be 1..12 & date_no 0..xx 
 int8_t in_dst(tm* RTC)
  {
   int8_t dst = 0;
