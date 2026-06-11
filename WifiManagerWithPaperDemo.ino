@@ -85,7 +85,7 @@ ESP32Time rtc(0);
 
 struct tm ntpT;
 
-const uint8_t epdLine[7] = {0,11,31,51,71,91,111};  EPD line-spacing for 9pt font
+const uint8_t epdLine[7] = {0,11,31,51,71,91,111};  // EPD line-spacing for 9pt font
 
 // ---------------------------------------------------------------------------------------
 
